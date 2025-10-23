@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <Folder Include="View\Financeiro\Banco\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\DFe\DFe\DFe\GerencialDFe.csproj" />
+	  <ProjectReference Include="..\Dados\Dados.csproj" />	  
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="View\Estoque\EstoqueCadastroForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Estoque\EstoqueCadastroGradeForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Estoque\EstoqueForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Caixa\CaixaCadastroForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Caixa\CaixaForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Pagar\PagarCadastroForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Pagar\PagarForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Pagar\PagarQuitarParcelaForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Pagar\PagarReplicarParcelaForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Receber\ReceberCadastroForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Receber\ReceberForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Receber\ReceberQuitarParcelaForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Financeiro\Receber\ReceberReplicarParcelaForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Pessoa\PessoaCadastroContatoForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Pessoa\PessoaCadastroDocumentoForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Pessoa\PessoaCadastroEnderecoForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Pessoa\PessoaCadastroForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Pessoa\PessoaForm.cs" />
+	  <Compile Update="View\Pessoa\PessoaSelecaoForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="View\Tributacao\TributacaoNCMForm.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator></Generator>
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>
