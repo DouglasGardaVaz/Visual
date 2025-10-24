@@ -1,3 +1,7 @@
+# Pastas de build e temporárias do Visual Studio
 bin/
 obj/
-Visual.csproj.user
+.vs/
+
+# Arquivo de configurações específicas do usuário
+*.csproj.user
