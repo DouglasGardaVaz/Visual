@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Dados.Helpers.Utils
+namespace Visual.Helpers.Utils
 {
     public static class StringExtensions
     {

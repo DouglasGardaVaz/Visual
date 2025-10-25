@@ -88,7 +88,7 @@
             btnSelecionar.FlatAppearance.BorderSize = 0;
             btnSelecionar.FlatAppearance.MouseDownBackColor = Color.Gray;
             btnSelecionar.FlatStyle = FlatStyle.Flat;
-            btnSelecionar.Font = new Font("Arial", 11F);
+            btnSelecionar.Font = new Font("Arial", 12F);
             btnSelecionar.ForeColor = Color.FromArgb(80, 80, 80);
             btnSelecionar.Location = new Point(524, 3);
             btnSelecionar.Name = "btnSelecionar";
@@ -107,7 +107,8 @@
             btnCancelar.FlatAppearance.BorderSize = 0;
             btnCancelar.FlatAppearance.MouseDownBackColor = Color.Gray;
             btnCancelar.FlatStyle = FlatStyle.Flat;
-            btnCancelar.Font = new Font("Arial", 11F);
+            btnCancelar.Font = new Font("Arial", 12F);
+            btnCancelar.ForeColor = Color.FromArgb(80, 80, 80);
             btnCancelar.Location = new Point(3, 3);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(124, 39);
@@ -145,6 +146,7 @@
             gridConteudo.CellDoubleClick += gridConteudo_CellDoubleClick;
             gridConteudo.Scroll += gridConteudo_Scroll;
             gridConteudo.SelectionChanged += gridConteudo_SelectionChanged;
+            gridConteudo.KeyDown += gridConteudo_KeyDown;
             // 
             // tableLayoutCabecalho
             // 
@@ -166,6 +168,7 @@
             lblDescricao.AutoSize = true;
             lblDescricao.Dock = DockStyle.Fill;
             lblDescricao.Font = new Font("Arial", 18F, FontStyle.Bold);
+            lblDescricao.ForeColor = Color.FromArgb(80, 80, 80);
             lblDescricao.Location = new Point(133, 0);
             lblDescricao.Name = "lblDescricao";
             lblDescricao.Size = new Size(385, 36);
@@ -182,6 +185,7 @@
             Controls.Add(tableLayoutCabecalho);
             Controls.Add(tbLayoutRodape);
             Font = new Font("Arial", 9F);
+            ForeColor = Color.FromArgb(80, 80, 80);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             KeyPreview = true;
             MaximizeBox = false;
@@ -193,6 +197,7 @@
             Text = "Selecione...";
             FormClosing += PessoaSelecaoForm_FormClosing;
             Load += PessoaSelecaoForm_Load;
+            Shown += PessoaSelecaoForm_Shown;
             KeyDown += PessoaSelecaoForm_KeyDown;
             tbLayoutRodape.ResumeLayout(false);
             tbLayoutRodape.PerformLayout();

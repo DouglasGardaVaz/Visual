@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Dados.Constantes.Mensagens.Global;
 using Dados.Helpers.Form;
 using Dados.Helpers.Grid;
+using Dados.Enums.Pessoa;
 
 namespace Dados.View.PessoaSelecaoFormulario
 {
@@ -19,6 +20,8 @@ namespace Dados.View.PessoaSelecaoFormulario
         private List<PessoaViewModel> dadosCarregados = new();
         private bool modoBuscaCompleta = false;
 
+        public TipoCadastroPessoa tipoCadastroPessoa { get; set; }
+
         public Pessoa ItemSelecionado { get; private set; }
 
         public PessoaSelecaoForm(DataContext context)
@@ -27,15 +30,40 @@ namespace Dados.View.PessoaSelecaoFormulario
             _context = context;
         }
 
+        private void AjustarLayout()
+        {
+            GridSettingsHelper.RestaurarConfiguracao(gridConteudo, "SelecaoGridPessoa");
+            FormSettingsHelper.RestaurarConfiguracao(this, "SelecaoPessoaForm");
+            EstiloGridHelper.AplicarEstiloModerno(gridConteudo);
+
+            switch (tipoCadastroPessoa)
+            {
+                case TipoCadastroPessoa.Cliente:
+                    this.Text = "Seleção de cliente";
+                    break;
+                case TipoCadastroPessoa.Fornecedor:
+                    this.Text = "Seleção de fornecedor";
+                    break;
+                case TipoCadastroPessoa.Vendedor:
+                    this.Text = "Seleção de vendedor";
+                    break;
+                case TipoCadastroPessoa.Transportadora:
+                    this.Text = "Seleção de transportadora";
+                    break;
+                default:
+                    this.Text = "Selecione...";
+                    break;
+            }
+        }
+
         private void PessoaSelecaoForm_Load(object sender, EventArgs e)
         {
             dadosCarregados.Clear();
             paginaAtual = 0;
             ultimaPagina = false;
             Filtrar();
-            GridSettingsHelper.RestaurarConfiguracao(gridConteudo, "SelecaoGridPessoa");
-            FormSettingsHelper.RestaurarConfiguracao(this, "SelecaoPessoaForm");
-            EstiloGridHelper.AplicarEstiloModerno(gridConteudo);
+            AjustarLayout();
+
         }
 
         private void AtualizarDescricaoComSelecionado()
@@ -115,6 +143,15 @@ namespace Dados.View.PessoaSelecaoFormulario
                     .ToList();
 
                 gridConteudo.DataSource = itens;
+
+                if (itens.Count > 0)
+                {
+                    gridConteudo.Focus();
+                    gridConteudo.ClearSelection();
+                    gridConteudo.Rows[0].Cells[0].Selected = true;
+                }
+
+
             }
             catch (Exception ex)
             {
@@ -200,6 +237,9 @@ namespace Dados.View.PessoaSelecaoFormulario
                 case Keys.Escape:
                     this.Close();
                     break;
+                case Keys.F3:
+                    txtBusca.Focus();
+                    break;
                 case Keys.F6:
                     btnSelecionar.PerformClick();
                     break;
@@ -207,6 +247,22 @@ namespace Dados.View.PessoaSelecaoFormulario
                     btnCancelar.PerformClick();
                     break;
             }
+        }
+
+        private void gridConteudo_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Enter:
+                    btnSelecionar.PerformClick();
+                    break;
+
+            }
+        }
+
+        private void PessoaSelecaoForm_Shown(object sender, EventArgs e)
+        {
+            txtBusca.Focus();
         }
     }
 }
