@@ -1,13 +1,13 @@
 ﻿using Dados.Enums;
 using Dados.Enums.Cadastro;
+using Dados.Helpers.Geral.HelpersGeralComponentes;
 using Dados.Helpers.Localizacao;
+using Dados.Helpers.Mascara.RetornarMascara;
 using Dados.Helpers.Utils;
 using Dados.Model.PessoaEnderecoModel;
-using Dados.Helpers.Form;
-using Dados.Helpers.Geral.HelpersGeralComponentes;
-using Dados.Helpers.Mascara.RetornarMascara;
+using Visual.Helpers.Form;
 
-namespace Dados.View.PessoaCadastroEnderecoFormulario
+namespace Visual.View.Pessoa.CadastroEnderecoFormulario
 {
     public partial class PessoaCadastroEnderecoForm : Form
     {

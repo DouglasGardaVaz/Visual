@@ -1,10 +1,10 @@
 ﻿using Dados.Data;
 using Dados.Enums.Security;
-using Dados.Model.Configuracao;
-using Dados.Helpers.Form;
 using Dados.Helpers.Security;
+using Dados.Model.Configuracao;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Geral.Seguranca
+namespace Visual.View.Geral.Seguranca.LoginFormulario
 {
     public partial class LoginForm : Form
     {

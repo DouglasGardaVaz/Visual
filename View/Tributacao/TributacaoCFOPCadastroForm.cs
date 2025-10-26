@@ -1,10 +1,10 @@
-﻿using Dados.Helpers.Form;
-using Microsoft.EntityFrameworkCore;
+﻿using Dados.Data;
 using Dados.Enums;
-using Dados.Data;
 using Dados.Model.Tributacao;
+using Microsoft.EntityFrameworkCore;
+using Visual.Helpers.Form;
 
-namespace Dados.View.TributacaoCadastroCFOPFormulario
+namespace Visual.View.Tributacao.CadastroCFOPFormulario
 {
     public partial class TributacaoCFOPCadastroForm : Form
     {

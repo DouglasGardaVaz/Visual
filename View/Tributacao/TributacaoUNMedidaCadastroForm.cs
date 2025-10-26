@@ -4,9 +4,9 @@ using Dados.Enums.Tributacao;
 using Dados.Helpers.Utils;
 using Dados.Model.Tributacao;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Tributacao.UNMedidaCadastroFormulario
+namespace Visual.View.Tributacao.UNMedidaCadastroFormulario
 {
     public partial class TributacaoUNMedidaCadastroForm : Form
     {

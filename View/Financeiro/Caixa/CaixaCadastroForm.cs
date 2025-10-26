@@ -5,11 +5,11 @@ using Dados.Enums.Pessoa;
 using Dados.Model.Cadastro;
 using Dados.Model.Financeiro.Caixa;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Combobox.Financeiro.Receber;
-using Dados.Helpers.Form;
-using Dados.View.PessoaSelecaoFormulario;
+using Visual.Helpers.Combobox.Financeiro.Receber;
+using Visual.Helpers.Form;
+using Visual.View.PessoaSelecaoFormulario;
 
-namespace Dados.View.Financeiro.CaixaCadastroFormulario
+namespace Visual.View.Financeiro.CaixaCadastroFormulario
 {
     public partial class CaixaCadastroForm : Form
     {

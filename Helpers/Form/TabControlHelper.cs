@@ -1,4 +1,4 @@
-﻿namespace Dados.Helpers.Form
+﻿namespace Visual.Helpers.Form
 {
     public static class TabControlHelper
     {

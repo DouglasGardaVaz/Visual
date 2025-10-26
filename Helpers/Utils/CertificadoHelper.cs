@@ -2,7 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 using GerencialDFe.Enums.Configs;
 
-namespace Dados.Helpers.Utils
+namespace Visual.Helpers.Utils
 {
     public static class CertificadoHelper
     {

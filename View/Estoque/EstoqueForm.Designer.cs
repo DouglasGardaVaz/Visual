@@ -1,4 +1,4 @@
-﻿namespace Dados.View.EstoqueFormulario
+﻿namespace Visual.View.Estoque.EstoqueFormulario
 {
     partial class EstoqueForm
     {

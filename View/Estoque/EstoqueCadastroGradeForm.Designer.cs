@@ -1,4 +1,4 @@
-﻿namespace Dados.View.EstoqueCadastroGradeFormulario
+﻿namespace Visual.View.Estoque.CadastroGradeFormulario
 {
     partial class EstoqueCadastroGradeForm
     {
@@ -167,7 +167,7 @@
             // pbCodigoBarras
             // 
             pbCodigoBarras.Cursor = Cursors.Hand;
-            pbCodigoBarras.Image = Dados.Properties.Resources.barcode;
+            pbCodigoBarras.Image = Visual.Properties.Resources.barcode;
             pbCodigoBarras.Location = new Point(132, 153);
             pbCodigoBarras.Name = "pbCodigoBarras";
             pbCodigoBarras.Size = new Size(24, 24);

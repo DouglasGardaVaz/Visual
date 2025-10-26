@@ -1,4 +1,4 @@
-﻿namespace Dados.Constantes.Mensagens.Financeiro
+﻿namespace Visual.Constantes.Mensagens.Financeiro
 {
     public static class MensagensFinanceiro
     {

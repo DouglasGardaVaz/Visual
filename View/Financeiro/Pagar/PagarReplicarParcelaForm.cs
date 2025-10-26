@@ -2,9 +2,9 @@
 using Dados.Data;
 using Dados.Enums.Financeiro.Pagar;
 using Dados.Model.Financeiro.Pagar;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Financeiro.PagarReplicarParcelaFormulario
+namespace Visual.View.Financeiro.PagarReplicarParcelaFormulario
 {
     public partial class PagarReplicarParcelaForm : Form
     {

@@ -1,16 +1,15 @@
-﻿using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Grid;
-using Dados.View.Cadastro.GrupoCadastroFormulario;
+﻿using Dados.Data;
 using Dados.Enums;
 using Dados.Helpers;
-using Dados.Data;
 using Dados.Model.Cadastro;
 using Dados.ViewModel.Cadastro;
+using Microsoft.EntityFrameworkCore;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Cadastro.GrupoCadastroFormulario;
 
-namespace Dados.View.Cadastro.GrupoFormulario
+namespace Visual.View.Cadastro.GrupoFormulario
 {
     public partial class GrupoForm : Form
     {

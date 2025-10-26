@@ -1,4 +1,4 @@
-﻿namespace Dados.View.PessoaFormulario
+﻿namespace Visual.View.Pessoa.PessoaFormulario
 {
     partial class PessoaForm
     {

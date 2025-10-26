@@ -1,6 +1,6 @@
 ﻿using Dados.ViewModel;
 
-namespace Dados.Helpers.Grid
+namespace Visual.Helpers.Grid
 {
     public static class GridViewExtensions
     {

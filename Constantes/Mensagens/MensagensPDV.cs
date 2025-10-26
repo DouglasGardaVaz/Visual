@@ -1,4 +1,4 @@
-﻿namespace Dados.Constantes.Mensagens
+﻿namespace Visual.Constantes.Mensagens
 {
     public static class MensagensPDV
     {

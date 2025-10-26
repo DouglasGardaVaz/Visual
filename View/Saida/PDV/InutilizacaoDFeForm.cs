@@ -1,9 +1,7 @@
-﻿using Dados.Helpers.Form;
-using Dados.Helpers.Form.Helper;
-using Dados.Model.Saida.NotaFiscalModel;
-using Dados.Constantes.Forms;
+﻿using Dados.Model.Saida.NotaFiscalModel;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Saida.InutilizacaoDFeFormulario
+namespace Visual.View.Saida.PDV.InutilizacaoDFeFormulario
 {
     public partial class InutilizacaoDFeForm : Form
     {

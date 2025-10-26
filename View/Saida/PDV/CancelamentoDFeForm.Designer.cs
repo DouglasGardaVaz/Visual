@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Saida.CancelamentoDFeFormulario
+﻿namespace Visual.View.Saida.PDV.CancelamentoDFeFormulario
 {
     partial class CancelamentoDFeForm
     {

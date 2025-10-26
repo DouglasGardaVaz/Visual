@@ -1,4 +1,4 @@
-﻿namespace Dados.View.PessoaCadastroEnderecoFormulario
+﻿namespace Visual.View.Pessoa.CadastroEnderecoFormulario
 {
     partial class PessoaCadastroEnderecoForm
     {

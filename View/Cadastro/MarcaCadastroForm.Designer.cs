@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Cadastro
+﻿namespace Visual.View.Cadastro.MarcaCadastroFormulario
 {
     partial class MarcaCadastroForm
     {

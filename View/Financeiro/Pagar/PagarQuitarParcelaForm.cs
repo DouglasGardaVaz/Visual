@@ -4,9 +4,9 @@ using Dados.Enums.Financeiro.Pagar;
 using Dados.Model.Cadastro;
 using Dados.Model.Financeiro.Caixa;
 using Dados.Model.Financeiro.Pagar;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Financeiro.PagarQuitarParcelaFormulario
+namespace Visual.View.Financeiro.PagarQuitarParcelaFormulario
 {
     public partial class PagarQuitarParcelaForm : Form
     {

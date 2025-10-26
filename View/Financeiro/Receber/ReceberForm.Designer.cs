@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.ReceberFormulario
+﻿namespace Visual.View.Financeiro.ReceberFormulario
 {
     partial class ReceberForm
     {

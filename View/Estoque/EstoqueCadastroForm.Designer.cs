@@ -1,4 +1,4 @@
-﻿namespace GerencialLoja.View.EstoqueCadastroFormulario
+﻿namespace Visual.View.Estoque.CadastroFormulario
 {
     partial class EstoqueCadastroForm
     {
@@ -533,7 +533,7 @@
             // pbBuscaNCM
             // 
             pbBuscaNCM.Cursor = Cursors.Hand;
-            pbBuscaNCM.Image = Dados.Properties.Resources.lupapeq;
+            pbBuscaNCM.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaNCM.Location = new Point(100, 143);
             pbBuscaNCM.Name = "pbBuscaNCM";
             pbBuscaNCM.Size = new Size(24, 24);
@@ -694,7 +694,7 @@
             // pbBuscaSubgrupo
             // 
             pbBuscaSubgrupo.Cursor = Cursors.Hand;
-            pbBuscaSubgrupo.Image = Dados.Properties.Resources.lupapeq;
+            pbBuscaSubgrupo.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaSubgrupo.Location = new Point(302, 90);
             pbBuscaSubgrupo.Name = "pbBuscaSubgrupo";
             pbBuscaSubgrupo.Size = new Size(24, 24);
@@ -727,7 +727,7 @@
             // pbBuscaFornecedor
             // 
             pbBuscaFornecedor.Cursor = Cursors.Hand;
-            pbBuscaFornecedor.Image = Dados.Properties.Resources.lupapeq;
+            pbBuscaFornecedor.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaFornecedor.Location = new Point(302, 182);
             pbBuscaFornecedor.Name = "pbBuscaFornecedor";
             pbBuscaFornecedor.Size = new Size(24, 24);
@@ -760,7 +760,7 @@
             // pbBuscaMarca
             // 
             pbBuscaMarca.Cursor = Cursors.Hand;
-            pbBuscaMarca.Image = Dados.Properties.Resources.lupapeq;
+            pbBuscaMarca.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaMarca.Location = new Point(302, 136);
             pbBuscaMarca.Name = "pbBuscaMarca";
             pbBuscaMarca.Size = new Size(24, 24);
@@ -793,7 +793,7 @@
             // pbBuscaGrupo
             // 
             pbBuscaGrupo.Cursor = Cursors.Hand;
-            pbBuscaGrupo.Image = Dados.Properties.Resources.lupapeq;
+            pbBuscaGrupo.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaGrupo.Location = new Point(302, 43);
             pbBuscaGrupo.Name = "pbBuscaGrupo";
             pbBuscaGrupo.Size = new Size(24, 24);
@@ -927,7 +927,7 @@
             // pbCodigoBarras
             // 
             pbCodigoBarras.Cursor = Cursors.Hand;
-            pbCodigoBarras.Image = Dados.Properties.Resources.barcode;
+            pbCodigoBarras.Image = Visual.Properties.Resources.barcode;
             pbCodigoBarras.Location = new Point(133, 38);
             pbCodigoBarras.Name = "pbCodigoBarras";
             pbCodigoBarras.Size = new Size(24, 24);

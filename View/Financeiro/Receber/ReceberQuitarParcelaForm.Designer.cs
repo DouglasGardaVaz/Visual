@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.ReceberQuitarParcelaFormulario
+﻿namespace Visual.View.Financeiro.ReceberQuitarParcelaFormulario
 {
     partial class ReceberQuitarParcelaForm
     {

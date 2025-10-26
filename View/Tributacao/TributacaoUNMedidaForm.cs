@@ -4,12 +4,12 @@ using Dados.Helpers;
 using Dados.Model.Tributacao;
 using Dados.ViewModel.Tributacao;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.Tributacao.UNMedidaCadastroFormulario;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Tributacao.UNMedidaCadastroFormulario;
 
-namespace Dados.View.Tributacao.UnidadeMedidaFormulario
+namespace Visual.View.Tributacao.UnidadeMedidaFormulario
 {
     public partial class TributacaoUNMedidaForm : Form
     {

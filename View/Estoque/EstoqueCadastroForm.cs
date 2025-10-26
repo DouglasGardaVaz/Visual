@@ -2,28 +2,28 @@
 using Dados.Enums;
 using Dados.Enums.Estoque;
 using Dados.Enums.Pessoa;
+using Dados.Helpers.Geral;
 using Dados.Helpers.Utils;
 using Dados.Model.Configuracao.Parametros.Estoque;
 using Dados.Model.Estoque;
 using Dados.Model.Tributacao;
 using Dados.ViewModel.Estoque;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Mensagens.Estoque;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Geral;
-using Dados.Helpers.Grid;
-using Dados.View.Cadastro.GrupoFormulario;
-using Dados.View.Cadastro.MarcaFormulario;
-using Dados.View.Cadastro.SubgrupoFormulario;
-using Dados.View.EstoqueCadastroGradeFormulario;
-using Dados.View.PessoaSelecaoFormulario;
-using Dados.View.Tributacao.UnidadeMedidaFormulario;
-using Dados.View.TributacaoEstadualFormulario;
-using Dados.View.TributacaoFederalFormulario;
-using Dados.View.TributacaoNCMSelecaoFormulario;
+using Visual.Constantes.Mensagens.Estoque;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Cadastro.GrupoFormulario;
+using Visual.View.Cadastro.MarcaFormulario;
+using Visual.View.Cadastro.SubgrupoFormulario;
+using Visual.View.Estoque.CadastroGradeFormulario;
+using Visual.View.PessoaSelecaoFormulario;
+using Visual.View.Tributacao.EstadualFormulario;
+using Visual.View.Tributacao.FederalFormulario;
+using Visual.View.Tributacao.NCMSelecaoFormulario;
+using Visual.View.Tributacao.UnidadeMedidaFormulario;
 
-namespace GerencialLoja.View.EstoqueCadastroFormulario
+namespace Visual.View.Estoque.CadastroFormulario
 {
     public partial class EstoqueCadastroForm : Form
     {

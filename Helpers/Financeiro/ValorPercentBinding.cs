@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
-using Dados.Helpers.Form.Helper;      // Tb_KeyPressMonetario
+using Visual.Helpers.Form;
 
-namespace Dados.Helpers.Financeiro
+namespace Visual.Helpers.Financeiro
 {
     /// <summary>
     /// Faz o vínculo entre dois TextBoxes (Valor e Percentual).

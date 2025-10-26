@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Dados.Properties {
+namespace Visual.Properties {
     using System;
     
     

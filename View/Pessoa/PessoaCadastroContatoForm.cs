@@ -1,12 +1,12 @@
 ﻿using Dados.Enums;
 using Dados.Enums.Pessoa;
+using Dados.Helpers.Mascara.RetornarMascara;
 using Dados.Helpers.Utils;
 using Dados.Model.PessoaEnderecoModel;
-using Dados.Helpers.Form;
-using Dados.Helpers.Mascara.RetornarMascara;
-using Dados.Helpers.Validar.CadastroContatoUtil;
+using Visual.Helpers.Form;
+using Visual.Helpers.Validar.CadastroContatoUtil;
 
-namespace Dados.View.PessoaCadastroContatoFormulario
+namespace Visual.View.PessoaCadastroContatoFormulario
 {
     public partial class PessoaCadastroContatoForm : Form
     {

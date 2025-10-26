@@ -2,9 +2,9 @@
 using Dados.Data;
 using Dados.Enums.Financeiro.Receber;
 using Dados.Model.Financeiro.Receber;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Financeiro.ReceberReplicarParcelaFormulario
+namespace Visual.View.Financeiro.ReceberReplicarParcelaFormulario
 {
     public partial class ReceberReplicarParcelaForm : Form
     {

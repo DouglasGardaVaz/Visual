@@ -1,4 +1,4 @@
-﻿namespace Dados.Constantes.Forms
+﻿namespace Visual.Constantes.Forms
 {
     public static class FormsConstantes
     {

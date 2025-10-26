@@ -4,15 +4,13 @@ using Dados.Enums;
 using Dados.Helpers;
 using Dados.Model.Financeiro.Caixa;
 using Dados.ViewModel.Financeiro.Caixa;
-using Dados.Constantes;
-using Dados.Constantes.Mensagens.Financeiro;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Combobox.Financeiro.Receber;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.Financeiro.CaixaCadastroFormulario;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Combobox.Financeiro.Receber;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Financeiro.CaixaCadastroFormulario;
 
-namespace Dados.View.Financeiro.CaixaFormulario
+namespace Visual.View.Financeiro.CaixaFormulario
 {
     public partial class CaixaForm : Form
     {

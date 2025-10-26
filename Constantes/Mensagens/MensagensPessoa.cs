@@ -1,4 +1,4 @@
-﻿namespace Dados.Constantes.Mensagens.Pessoa
+﻿namespace Visual.Constantes.Mensagens.Pessoa
 {
     public static class MensagensPessoa
     {

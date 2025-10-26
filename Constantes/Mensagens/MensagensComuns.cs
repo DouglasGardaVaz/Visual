@@ -1,4 +1,4 @@
-﻿namespace Dados.Constantes.Mensagens.Global
+﻿namespace Visual.Constantes.Mensagens.Global
 {
     public static class MensagensComuns
     {

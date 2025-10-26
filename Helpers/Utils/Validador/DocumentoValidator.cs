@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dados.Helpers.Validador.DocumentoValidator
+namespace Visual.Helpers.Validador.DocumentoValidator
 {
     public static class DocumentoValidator
     {

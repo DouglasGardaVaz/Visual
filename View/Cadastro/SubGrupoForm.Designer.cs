@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Cadastro.SubgrupoFormulario
+﻿namespace Visual.View.Cadastro.SubgrupoFormulario
 {
     partial class SubGrupoForm
     {

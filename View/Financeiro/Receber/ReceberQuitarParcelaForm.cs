@@ -4,9 +4,9 @@ using Dados.Enums.Financeiro.Receber;
 using Dados.Model.Cadastro;
 using Dados.Model.Financeiro.Caixa;
 using Dados.Model.Financeiro.Receber;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Financeiro.ReceberQuitarParcelaFormulario
+namespace Visual.View.Financeiro.ReceberQuitarParcelaFormulario
 {
     public partial class ReceberQuitarParcelaForm : Form
     {

@@ -2,9 +2,9 @@
 using Dados.Enums;
 using Dados.Model.Tributacao;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.TributacaoFederalCadastroFormulario
+namespace Visual.View.Tributacao.FederalCadastroFormulario
 {
     public partial class TributacaoFederalCadastroForm : Form
     {

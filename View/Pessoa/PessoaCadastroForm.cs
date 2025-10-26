@@ -3,29 +3,28 @@ using Dados.Constantes;
 using Dados.Data;
 using Dados.Enums;
 using Dados.Enums.Pessoa;
+using Dados.Helpers.Geral.HelpersGeralDocumentos;
 using Dados.Helpers.Utils;
 using Dados.Model.Configuracao.Parametros.Pessoa;
 using Dados.Model.PessoaDocumentoModel;
 using Dados.Model.PessoaEnderecoModel;
 using Dados.Model.PessoaJuridicaModel;
-using Dados.Model.PessoaModel;
 using Dados.ViewModel.Pessoa;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Geral.HelpersGeralDocumentos;
-using Dados.Helpers.Grid;
-using Dados.Helpers.Validador.DocumentoValidator;
-using Dados.View.PessoaCadastroContatoFormulario;
-using Dados.View.PessoaCadastroDocumentoFormulario;
-using Dados.View.PessoaCadastroEnderecoFormulario;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.Helpers.Validador.DocumentoValidator;
+using Visual.View.Pessoa.CadastroEnderecoFormulario;
+using Visual.View.PessoaCadastroContatoFormulario;
+using Visual.View.PessoaCadastroDocumentoFormulario;
 
-namespace Dados.View.PessoaCadastroFormulario
+namespace Visual.View.Pessoa.PessoaCadastroFormulario
 {
     public partial class PessoaCadastroForm : Form
     {
         public TipoOperacao Operacao { get; set; }
-        public Pessoa itemSelecionado { get; set; }
+        public Dados.Model.PessoaModel.Pessoa itemSelecionado { get; set; }
 
         private readonly DataContext _context;
 
@@ -73,7 +72,7 @@ namespace Dados.View.PessoaCadastroFormulario
 
         private void InicializarNovaPessoa()
         {
-            itemSelecionado = new Pessoa
+            itemSelecionado = new Dados.Model.PessoaModel.Pessoa
             {
                 Tipo = TipoPessoa.Fisica,
                 Ativo = true,

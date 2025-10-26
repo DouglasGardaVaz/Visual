@@ -1,11 +1,11 @@
 ﻿using Dados.Data;
 using Dados.Enums;
+using Dados.Helpers.Geral;
 using Dados.Model.Estoque;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
-using Dados.Helpers.Geral;
+using Visual.Helpers.Form;
 
-namespace Dados.View.EstoqueCadastroGradeFormulario
+namespace Visual.View.Estoque.CadastroGradeFormulario
 {
     public partial class EstoqueCadastroGradeForm : Form
     {

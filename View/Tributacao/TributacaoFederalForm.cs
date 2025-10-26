@@ -4,12 +4,12 @@ using Dados.Enums;
 using Dados.Helpers;
 using Dados.Model.Tributacao;
 using Dados.ViewModel.Tributacao;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.TributacaoFederalCadastroFormulario;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Tributacao.FederalCadastroFormulario;
 
-namespace Dados.View.TributacaoFederalFormulario
+namespace Visual.View.Tributacao.FederalFormulario
 {
     public partial class TributacaoFederalForm : Form
     {

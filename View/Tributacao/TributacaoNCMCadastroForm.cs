@@ -1,12 +1,12 @@
 ﻿using Dados.Data;
 using Dados.Enums;
+using Dados.Helpers.Geral.HelpersGeralComponentes;
 using Dados.Helpers.Localizacao;
 using Dados.Model.Tributacao;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
-using Dados.Helpers.Geral.HelpersGeralComponentes;
+using Visual.Helpers.Form;
 
-namespace Dados.View.TributacaoNCMCadastroFormulario
+namespace Visual.View.Tributacao.NCMCadastroFormulario
 {
     public partial class TributacaoNCMCadastroForm : Form
     {

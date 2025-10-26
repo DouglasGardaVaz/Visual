@@ -1,15 +1,15 @@
-﻿using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Grid;
+﻿using Dados.Data;
 using Dados.Enums;
-using Dados.Model.Cadastro;
 using Dados.Helpers;
-using Dados.Data;
+using Dados.Model.Cadastro;
 using Dados.ViewModel.Cadastro;
+using Microsoft.EntityFrameworkCore;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Cadastro.MarcaCadastroFormulario;
 
-namespace Dados.View.Cadastro.MarcaFormulario
+namespace Visual.View.Cadastro.MarcaFormulario
 {
     public partial class MarcaForm : Form
     {

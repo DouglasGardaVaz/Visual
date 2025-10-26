@@ -1,7 +1,7 @@
 ﻿using Dados.Enums.Financeiro.Caixa;
 using Dados.Helpers.Utils;
 
-namespace Dados.Helpers.Combobox.Financeiro.Receber
+namespace Visual.Helpers.Combobox.Financeiro.Receber
 {
     public static class FiltroCaixaHelper
     {

@@ -6,11 +6,11 @@ using Dados.Model.Cadastro;
 using Dados.Model.Configuracao.Parametros.Financeiro.Receber;
 using Dados.Model.Financeiro.Receber;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
-using Dados.View.Financeiro.ReceberReplicarParcelaFormulario;
-using Dados.View.PessoaSelecaoFormulario;
+using Visual.Helpers.Form;
+using Visual.View.Financeiro.ReceberReplicarParcelaFormulario;
+using Visual.View.PessoaSelecaoFormulario;
 
-namespace Dados.View.Financeiro.ReceberCadastroFormulario
+namespace Visual.View.Financeiro.ReceberCadastroFormulario
 {
     public partial class ReceberCadastroForm : Form
     {

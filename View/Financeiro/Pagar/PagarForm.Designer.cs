@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.PagarFormulario
+﻿namespace Visual.View.Financeiro.PagarFormulario
 {
     partial class PagarForm
     {

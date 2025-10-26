@@ -2,10 +2,10 @@
 using Dados.Enums;
 using Dados.Model.Cadastro;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
-using Dados.View.Cadastro.GrupoFormulario;
+using Visual.Helpers.Form;
+using Visual.View.Cadastro.GrupoFormulario;
 
-namespace Dados.View.Cadastro.SubgrupoCadastroFormulario
+namespace Visual.View.Cadastro.SubgrupoCadastroFormulario
 {
     public partial class SubGrupoCadastroForm : Form
     {

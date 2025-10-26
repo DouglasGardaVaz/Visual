@@ -1,9 +1,6 @@
-﻿using System;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Dados.View.Geral;
+﻿using Visual.View.Geral.ProcessamentoFormulario;
 
-namespace Dados.Helpers.Form
+namespace Visual.Helpers.Form
 {
     public static class EsperaHelper
     {

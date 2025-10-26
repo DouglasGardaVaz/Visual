@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.PagarQuitarParcelaFormulario
+﻿namespace Visual.View.Financeiro.PagarQuitarParcelaFormulario
 {
     partial class PagarQuitarParcelaForm
     {

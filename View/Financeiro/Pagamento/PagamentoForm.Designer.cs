@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.PagamentoFormulario
+﻿namespace Visual.View.Financeiro.PagamentoFormulario
 {
     partial class PagamentoForm
     {
@@ -495,7 +495,7 @@
             // pbBuscaPessoa
             // 
             pbBuscaPessoa.Cursor = Cursors.Hand;
-            pbBuscaPessoa.Image = Properties.Resources.lupapeq;
+            pbBuscaPessoa.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaPessoa.Location = new Point(9, 17);
             pbBuscaPessoa.Name = "pbBuscaPessoa";
             pbBuscaPessoa.Size = new Size(24, 24);

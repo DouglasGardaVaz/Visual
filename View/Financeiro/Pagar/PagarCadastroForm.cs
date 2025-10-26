@@ -6,11 +6,11 @@ using Dados.Model.Cadastro;
 using Dados.Model.Configuracao.Parametros.Financeiro.Pagar;
 using Dados.Model.Financeiro.Pagar;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
-using Dados.View.Financeiro.PagarReplicarParcelaFormulario;
-using Dados.View.PessoaSelecaoFormulario;
+using Visual.Helpers.Form;
+using Visual.View.Financeiro.PagarReplicarParcelaFormulario;
+using Visual.View.PessoaSelecaoFormulario;
 
-namespace Dados.View.Financeiro.PagarCadastroFormulario
+namespace Visual.View.Financeiro.PagarCadastroFormulario
 {
     public partial class PagarCadastroForm : Form
     {

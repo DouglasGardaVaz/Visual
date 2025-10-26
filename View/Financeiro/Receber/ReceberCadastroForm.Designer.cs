@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.ReceberCadastroFormulario
+﻿namespace Visual.View.Financeiro.ReceberCadastroFormulario
 {
     partial class ReceberCadastroForm
     {

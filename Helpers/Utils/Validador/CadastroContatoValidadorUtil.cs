@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Dados.Helpers.Validar.CadastroContatoUtil
+﻿namespace Visual.Helpers.Validar.CadastroContatoUtil
 {
     public static class EmailValidador
     {

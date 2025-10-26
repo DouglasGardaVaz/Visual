@@ -1,6 +1,6 @@
 ﻿using System.Drawing.Printing;
 
-namespace Dados.Helpers.Form
+namespace Visual.Helpers.Form
 {
     public static class ImpressoraHelper
     {

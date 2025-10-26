@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Saida.PDV
+﻿namespace Visual.View.Saida.PDV.GerenciamentoDFeFormulario
 {
     partial class GerenciamentoDFeForm
     {

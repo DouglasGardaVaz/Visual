@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Tributacao.UnidadeMedidaFormulario
+﻿namespace Visual.View.Tributacao.UnidadeMedidaFormulario
 {
     partial class TributacaoUNMedidaForm
     {

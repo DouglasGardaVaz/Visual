@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Dados.Helpers.Financeiro
+namespace Visual.Helpers.Financeiro
 {
     public static class MoneyTextHelper
     {

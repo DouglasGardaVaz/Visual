@@ -1,15 +1,15 @@
 ﻿using Dados.Data;
+using Dados.Enums.Pessoa;
 using Dados.Helpers;
 using Dados.Model.PessoaEnderecoModel;
-using Dados.Model.PessoaModel;
 using Dados.ViewModel.Pessoa;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.Enums.Pessoa;
+using Visual.Constantes.Grids;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
 
-namespace Dados.View.PessoaSelecaoFormulario
+namespace Visual.View.PessoaSelecaoFormulario
 {
     public partial class PessoaSelecaoForm : Form
     {
@@ -22,7 +22,7 @@ namespace Dados.View.PessoaSelecaoFormulario
 
         public TipoCadastroPessoa tipoCadastroPessoa { get; set; }
 
-        public Pessoa ItemSelecionado { get; private set; }
+        public Dados.Model.PessoaModel.Pessoa ItemSelecionado { get; private set; }
 
         public PessoaSelecaoForm(DataContext context)
         {
@@ -32,8 +32,8 @@ namespace Dados.View.PessoaSelecaoFormulario
 
         private void AjustarLayout()
         {
-            GridSettingsHelper.RestaurarConfiguracao(gridConteudo, "SelecaoGridPessoa");
-            FormSettingsHelper.RestaurarConfiguracao(this, "SelecaoPessoaForm");
+            GridSettingsHelper.RestaurarConfiguracao(gridConteudo, GridConstantes.PessoaSelecaoForm + tipoCadastroPessoa.ToString());
+            FormSettingsHelper.RestaurarConfiguracao(this, GridConstantes.PessoaSelecaoForm + tipoCadastroPessoa.ToString());
             EstiloGridHelper.AplicarEstiloModerno(gridConteudo);
 
             switch (tipoCadastroPessoa)
@@ -226,8 +226,8 @@ namespace Dados.View.PessoaSelecaoFormulario
 
         private void PessoaSelecaoForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            GridSettingsHelper.SalvarConfiguracao(gridConteudo, "SelecaoGridPessoa");
-            FormSettingsHelper.SalvarConfiguracao(this, "SelecaoPessoaForm");
+            GridSettingsHelper.SalvarConfiguracao(gridConteudo, GridConstantes.PessoaSelecaoForm + tipoCadastroPessoa.ToString());
+            FormSettingsHelper.SalvarConfiguracao(this, GridConstantes.PessoaSelecaoForm + tipoCadastroPessoa.ToString());
         }
 
         private void PessoaSelecaoForm_KeyDown(object sender, KeyEventArgs e)

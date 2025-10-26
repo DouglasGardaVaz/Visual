@@ -1,7 +1,6 @@
 ﻿using System.Reflection;
-using System.Windows.Forms;
 
-namespace Dados.Helpers.Grid
+namespace Visual.Helpers.Grid
 {
     public static class DataGridViewSortHelper
     {

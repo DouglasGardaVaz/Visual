@@ -1,4 +1,4 @@
-﻿namespace Dados.View.TributacaoEstadualCadastroFormulario
+﻿namespace Visual.View.Tributacao.EstadualCadastroFormulario
 {
     partial class TributacaoEstadualCadastroForm
     {
@@ -189,7 +189,7 @@
             // pbBuscaCFOP
             // 
             pbBuscaCFOP.Cursor = Cursors.Hand;
-            pbBuscaCFOP.Image = Properties.Resources.lupapeq;
+            pbBuscaCFOP.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaCFOP.Location = new Point(76, 142);
             pbBuscaCFOP.Name = "pbBuscaCFOP";
             pbBuscaCFOP.Size = new Size(24, 24);

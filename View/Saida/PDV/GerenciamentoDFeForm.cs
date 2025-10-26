@@ -1,8 +1,12 @@
 ﻿using System.Data;
 using Dados.Data;
 using Dados.Data.Repositories;
+using Dados.Enums.Saida.NotaFiscalEnums;
+using Dados.Model.Saida.GerenciamentoNotaFiscalView;
+using Dados.Model.Saida.NotaFiscalModel;
 using Dados.Services.Saida.NotaFiscal;
 using Dados.Services.Saida.NotaFiscal.NFCe;
+using Dados.ViewModel.Saida.NotaFiscal.ViewModel;
 using DFe.Utils;
 using GerencialDFe.Config;
 using GerencialDFe.Services;
@@ -10,17 +14,13 @@ using GerencialDFe.Services.NFCe;
 using Microsoft.EntityFrameworkCore;
 using NFe.Servicos;
 using NFe.Utils.NFe;
-using Dados.Enums.Saida.NotaFiscalEnums;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.Helpers.Saida.Nota_fiscal;
-using Dados.Model.Saida.GerenciamentoNotaFiscalView;
-using Dados.Model.Saida.NotaFiscalModel;
-using Dados.View.Saida.CancelamentoDFeFormulario;
-using Dados.View.Saida.InutilizacaoDFeFormulario;
-using Dados.ViewModel.Saida.NotaFiscal.ViewModel;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.Helpers.Saida.Nota_fiscal;
+using Visual.View.Saida.PDV.CancelamentoDFeFormulario;
+using Visual.View.Saida.PDV.InutilizacaoDFeFormulario;
 
-namespace Dados.View.Saida.PDV
+namespace Visual.View.Saida.PDV.GerenciamentoDFeFormulario
 {
     public partial class GerenciamentoDFeForm : Form
     {

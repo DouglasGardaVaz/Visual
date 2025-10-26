@@ -1,4 +1,4 @@
-﻿namespace Dados.View.PessoaCadastroDocumentoFormulario
+﻿namespace Visual.View.PessoaCadastroDocumentoFormulario
 {
     partial class PessoaCadastroDocumentoForm
     {

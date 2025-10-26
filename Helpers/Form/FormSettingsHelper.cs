@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Windows.Forms;
 
-namespace Dados.Helpers.Form
+namespace Visual.Helpers.Form
 {
     public static class FormSettingsHelper
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dados.Helpers.Utils
+namespace Visual.Helpers.Utils
 {
     public static class FormatoValores
     {

@@ -5,12 +5,12 @@ using Dados.Helpers;
 using Dados.Model.Tributacao;
 using Dados.ViewModel.Tributacao;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.TributacaoNCMCadastroFormulario;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Tributacao.NCMCadastroFormulario;
 
-namespace Dados.View.TributacaoNCMSelecaoFormulario
+namespace Visual.View.Tributacao.NCMSelecaoFormulario
 {
     public partial class TributacaoNCMForm : Form
     {

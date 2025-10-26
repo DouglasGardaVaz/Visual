@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Configuracao.ConfiguracaoDFeFormulario
+﻿namespace Visual.View.Configuracao.ConfiguracaoDFeFormulario
 {
     partial class ConfiguracaoDFeForm
     {
@@ -325,7 +325,7 @@
             // pbBuscaCertificadoNFCe
             // 
             pbBuscaCertificadoNFCe.Cursor = Cursors.Hand;
-            pbBuscaCertificadoNFCe.Image = Properties.Resources.lupapeq;
+            pbBuscaCertificadoNFCe.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaCertificadoNFCe.Location = new Point(301, 40);
             pbBuscaCertificadoNFCe.Name = "pbBuscaCertificadoNFCe";
             pbBuscaCertificadoNFCe.Size = new Size(24, 24);

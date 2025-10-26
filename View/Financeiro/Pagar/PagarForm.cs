@@ -1,20 +1,20 @@
-﻿using Dados.Constantes.Mensagens.Financeiro;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Combobox.Financeiro.Pagar;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.Financeiro.PagarCadastroFormulario;
-using Dados.View.Financeiro.PagarQuitarParcelaFormulario;
-using Microsoft.EntityFrameworkCore;
+﻿using Dados.Data;
+using Dados.Data.Repositories;
 using Dados.Enums;
+using Dados.Enums.Financeiro.Pagar;
 using Dados.Helpers;
-using Dados.Data;
 using Dados.Model.Financeiro.Pagar;
 using Dados.ViewModel.Financeiro.Pagar;
-using Dados.Data.Repositories;
-using Dados.Enums.Financeiro.Pagar;
+using Microsoft.EntityFrameworkCore;
+using Visual.Constantes.Mensagens.Financeiro;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Combobox.Financeiro.Pagar;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Financeiro.PagarCadastroFormulario;
+using Visual.View.Financeiro.PagarQuitarParcelaFormulario;
 
-namespace Dados.View.Financeiro.PagarFormulario
+namespace Visual.View.Financeiro.PagarFormulario
 {
     public partial class PagarForm : Form
     {

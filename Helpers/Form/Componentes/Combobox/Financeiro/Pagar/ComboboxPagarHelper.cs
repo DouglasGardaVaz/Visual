@@ -1,7 +1,7 @@
 ﻿using Dados.Enums.Financeiro.Pagar;
 using Dados.Helpers.Utils;
 
-namespace Dados.Helpers.Combobox.Financeiro.Pagar
+namespace Visual.Helpers.Combobox.Financeiro.Pagar
 {
     public static class FiltroPagarHelper
     {

@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel;
 using System.Globalization;
-using Dados.Constantes.Forms;
-using Dados.Helpers.Form.Helper;
+using Visual.Constantes.Forms;
 
-namespace Dados.Helpers.Form
+namespace Visual.Helpers.Form
 {
     public static class EstiloGlobal
     {

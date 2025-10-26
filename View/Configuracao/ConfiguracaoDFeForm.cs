@@ -1,15 +1,15 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using Dados.Data;
 using Dados.Enums.Saida;
+using Dados.Enums.Saida.NotaFiscalEnums;
 using Dados.Helpers.Utils;
 using Dados.Model.Configuracao.Parametros.Saida.PDV;
 using GerencialDFe.Enums.Configs;
-using Dados.Enums.Saida.NotaFiscalEnums;
-using Dados.Helpers.Form;
-using Dados.Helpers.Form.Componentes;
-using Dados.Helpers.Utils;
+using Visual.Helpers.Form;
+using Visual.Helpers.Form.Componentes;
+using Visual.Helpers.Utils;
 
-namespace Dados.View.Configuracao.ConfiguracaoDFeFormulario
+namespace Visual.View.Configuracao.ConfiguracaoDFeFormulario
 {
     public partial class ConfiguracaoDFeForm : Form
     {

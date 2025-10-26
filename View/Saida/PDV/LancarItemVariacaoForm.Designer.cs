@@ -1,0 +1,52 @@
+﻿namespace Visual.View.Saida.PDV.LancarItemVariacaoFormulario
+{
+    partial class LancarItemVariacaoForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            SuspendLayout();
+            // 
+            // LancarItemVariacao
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(739, 432);
+            Font = new Font("Arial", 9F);
+            ForeColor = Color.FromArgb(80, 80, 80);
+            KeyPreview = true;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "LancarItemVariacao";
+            ShowIcon = false;
+            ShowInTaskbar = false;
+            Text = "Variações do produto";
+            ResumeLayout(false);
+        }
+
+        #endregion
+    }
+}

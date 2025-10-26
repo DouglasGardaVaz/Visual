@@ -1,8 +1,7 @@
 ﻿using Dados.Constantes;
 using Dados.Enums.Security;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Security;
-using Dados.View.Geral.Seguranca;
+using Visual.Constantes.Mensagens.Global;
+using Visual.View.Geral.Seguranca.LoginFormulario;
 namespace Dados.Helpers.Security
 {
     public static class Autenticador

@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Saida.DescontoAcrescimoItemFormulario
+﻿namespace Visual.View.Saida.PDV.DescontoAcrescimoItemFormulario
 {
     partial class DescontoAcrescimoItemForm
     {

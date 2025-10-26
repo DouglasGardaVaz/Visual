@@ -3,17 +3,16 @@ using Dados.Data;
 using Dados.Enums;
 using Dados.Helpers;
 using Dados.Model.PessoaEnderecoModel;
-using Dados.Model.PessoaModel;
 using Dados.ViewModel.Pessoa;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Forms;
-using Dados.Constantes.Grids;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.PessoaCadastroFormulario;
+using Visual.Constantes.Forms;
+using Visual.Constantes.Grids;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Pessoa.PessoaCadastroFormulario;
 
-namespace Dados.View.PessoaFormulario
+namespace Visual.View.Pessoa.PessoaFormulario
 {
     public partial class PessoaForm : Form
     {
@@ -139,7 +138,7 @@ namespace Dados.View.PessoaFormulario
             }
         }
 
-        private Pessoa? CarregarPessoaCompleta(int id)
+        private Dados.Model.PessoaModel.Pessoa? CarregarPessoaCompleta(int id)
         {
             return _context.Pessoas
                 .Include(p => p.PessoaFisica)

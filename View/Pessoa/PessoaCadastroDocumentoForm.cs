@@ -1,11 +1,11 @@
 ﻿using Dados.Enums;
 using Dados.Enums.Pessoa;
+using Dados.Helpers.Mascara.RetornarMascara;
 using Dados.Helpers.Utils;
 using Dados.Model.PessoaDocumentoModel;
-using Dados.Helpers.Form;
-using Dados.Helpers.Mascara.RetornarMascara;
+using Visual.Helpers.Form;
 
-namespace Dados.View.PessoaCadastroDocumentoFormulario
+namespace Visual.View.PessoaCadastroDocumentoFormulario
 {
     public partial class PessoaCadastroDocumentoForm : Form
     {

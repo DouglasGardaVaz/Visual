@@ -1,4 +1,4 @@
-﻿namespace Dados.View.TributacaoNCMCadastroFormulario
+﻿namespace Visual.View.Tributacao.NCMCadastroFormulario
 {
     partial class TributacaoNCMCadastroForm
     {

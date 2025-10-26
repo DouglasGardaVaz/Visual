@@ -2,9 +2,9 @@
 using Dados.Enums;
 using Dados.Model.Cadastro;
 using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Form;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Cadastro.GrupoCadastroFormulario
+namespace Visual.View.Cadastro.GrupoCadastroFormulario
 {
     public partial class GrupoCadastroForm : Form
     {

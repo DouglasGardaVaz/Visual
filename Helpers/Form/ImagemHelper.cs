@@ -1,4 +1,4 @@
-﻿namespace Dados.Helpers.Form.Imagens
+﻿namespace Visual.Helpers.Form.Imagens
 {
     public static class ImagemHelper
     {

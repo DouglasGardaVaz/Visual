@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Geral
+﻿namespace Visual.View.Geral.ProcessamentoFormulario
 {
     partial class ProcessandoForm
     {
@@ -46,7 +46,7 @@
             // pbImgLoading
             // 
             pbImgLoading.ErrorImage = null;
-            pbImgLoading.Image = Properties.Resources.loading;
+            pbImgLoading.Image = Visual.Properties.Resources.loading;
             pbImgLoading.Location = new Point(53, 69);
             pbImgLoading.Name = "pbImgLoading";
             pbImgLoading.Size = new Size(207, 138);

@@ -1,6 +1,6 @@
-﻿using Dados.Helpers.Form;
+﻿using Visual.Helpers.Form;
 
-namespace Dados.View.Saida.DescontoAcrescimoItemFormulario
+namespace Visual.View.Saida.PDV.DescontoAcrescimoItemFormulario
 {
     public partial class DescontoAcrescimoItemForm : Form
     {

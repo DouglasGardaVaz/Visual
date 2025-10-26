@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.PagarCadastroFormulario
+﻿namespace Visual.View.Financeiro.PagarCadastroFormulario
 {
     partial class PagarCadastroForm
     {
@@ -407,7 +407,7 @@
             // pbBuscaPessoa
             // 
             pbBuscaPessoa.Cursor = Cursors.Hand;
-            pbBuscaPessoa.Image = Dados.Properties.Resources.lupapeq;
+            pbBuscaPessoa.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaPessoa.Location = new Point(415, 98);
             pbBuscaPessoa.Name = "pbBuscaPessoa";
             pbBuscaPessoa.Size = new Size(24, 24);

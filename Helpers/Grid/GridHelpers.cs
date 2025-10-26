@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Dados.Helpers.Grid
+namespace Visual.Helpers.Grid
 {
     public static class GridEnterHelper
     {

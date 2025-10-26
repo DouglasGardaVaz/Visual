@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.PagarReplicarParcelaFormulario
+﻿namespace   Visual.View.Financeiro.PagarReplicarParcelaFormulario
 {
     partial class PagarReplicarParcelaForm
     {

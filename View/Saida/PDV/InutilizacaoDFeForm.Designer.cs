@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Saida.InutilizacaoDFeFormulario
+﻿namespace Visual.View.Saida.PDV.InutilizacaoDFeFormulario
 {
     partial class InutilizacaoDFeForm
     {

@@ -1,4 +1,4 @@
-﻿namespace Dados.View.TributacaoFederalFormulario
+﻿namespace Visual.View.Tributacao.FederalFormulario
 {
     partial class TributacaoFederalForm
     {

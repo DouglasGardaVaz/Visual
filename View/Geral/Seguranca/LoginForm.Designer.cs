@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Geral.Seguranca
+﻿namespace Visual.View.Geral.Seguranca.LoginFormulario
 {
     partial class LoginForm
     {

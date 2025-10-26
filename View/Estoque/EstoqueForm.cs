@@ -4,13 +4,13 @@ using Dados.Enums;
 using Dados.Helpers.Filtro;
 using Dados.Model.Estoque;
 using Dados.ViewModel.Estoque;
-using GerencialLoja.View.EstoqueCadastroFormulario;
 using Microsoft.EntityFrameworkCore;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Estoque.CadastroFormulario;
 
-namespace Dados.View.EstoqueFormulario
+namespace Visual.View.Estoque.EstoqueFormulario
 {
     public partial class EstoqueForm : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Cadastro.SubgrupoCadastroFormulario
+﻿namespace Visual.View.Cadastro.SubgrupoCadastroFormulario
 {
     partial class SubGrupoCadastroForm
     {
@@ -95,7 +95,7 @@
             // pbBuscaGrupo
             // 
             pbBuscaGrupo.Cursor = Cursors.Hand;
-            pbBuscaGrupo.Image = Properties.Resources.lupapeq;
+            pbBuscaGrupo.Image = Visual.Properties.Resources.lupapeq;
             pbBuscaGrupo.Location = new Point(321, 81);
             pbBuscaGrupo.Name = "pbBuscaGrupo";
             pbBuscaGrupo.Size = new Size(24, 24);

@@ -1,10 +1,10 @@
-﻿using Dados.Helpers.Form;
-using Microsoft.EntityFrameworkCore;
+﻿using Dados.Data;
 using Dados.Enums;
 using Dados.Model.Cadastro;
-using Dados.Data;
+using Microsoft.EntityFrameworkCore;
+using Visual.Helpers.Form;
 
-namespace Dados.View.Cadastro
+namespace Visual.View.Cadastro.MarcaCadastroFormulario
 {
     public partial class MarcaCadastroForm : Form
     {

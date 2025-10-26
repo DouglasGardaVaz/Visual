@@ -1,16 +1,15 @@
-﻿using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Microsoft.EntityFrameworkCore;
-using Dados.Helpers.Grid;
-using Dados.View.TributacaoCadastroCFOPFormulario;
+﻿using Dados.Data;
 using Dados.Enums;
 using Dados.Helpers;
-using Dados.Data;
 using Dados.Model.Tributacao;
 using Dados.ViewModel.Tributacao;
+using Microsoft.EntityFrameworkCore;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Tributacao.CadastroCFOPFormulario;
 
-namespace Dados.View.TributacaoCFOPFormulario
+namespace Visual.View.Tributacao.CFOPFormulario
 {
     public partial class TributacaoCFOPForm : Form
     {

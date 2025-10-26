@@ -2,17 +2,16 @@
 using Dados.Enums.Financeiro;
 using Dados.Enums.Pessoa;
 using Dados.Enums.Sistema;
-using Dados.Helpers.Financeiro;
-using Dados.Helpers.Form;
-using Dados.Helpers.Form.Helper;
-using Dados.Helpers.Grid;
 using Dados.Model.Cadastro;
 using Dados.Model.Saida.NotaFiscalValoresModel;
 using Dados.Model.Saida.Pagamento;
-using Dados.View.PessoaSelecaoFormulario;
 using Dados.ViewModel.Cadastro;
+using Visual.Helpers.Financeiro;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.PessoaSelecaoFormulario;
 
-namespace Dados.View.Financeiro.PagamentoFormulario
+namespace Visual.View.Financeiro.PagamentoFormulario
 {
     public partial class PagamentoForm : Form
     {

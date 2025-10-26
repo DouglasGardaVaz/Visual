@@ -1,4 +1,4 @@
-﻿namespace Dados.View.Financeiro.CaixaFormulario
+﻿namespace Visual.View.Financeiro.CaixaFormulario
 {
     partial class CaixaForm
     {

@@ -1,4 +1,4 @@
-﻿namespace Dados.View.TributacaoCFOPFormulario
+﻿namespace Visual.View.Tributacao.CFOPFormulario
 {
     partial class TributacaoCFOPForm
     {

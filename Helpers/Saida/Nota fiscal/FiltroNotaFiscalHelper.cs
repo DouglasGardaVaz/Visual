@@ -1,7 +1,7 @@
 ﻿using Dados.Helpers.Utils;
 using Dados.Enums.Saida.NotaFiscalEnums;
 
-namespace Dados.Helpers.Saida.Nota_fiscal
+namespace Visual.Helpers.Saida.Nota_fiscal
 {
     public static class FiltroNotaFiscalHelper
     {

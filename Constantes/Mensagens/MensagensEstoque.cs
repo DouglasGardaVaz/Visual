@@ -1,4 +1,4 @@
-﻿namespace Dados.Constantes.Mensagens.Estoque
+﻿namespace Visual.Constantes.Mensagens.Estoque
 {
     public static class MensagensEstoque
     {

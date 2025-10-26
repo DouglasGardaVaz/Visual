@@ -1,21 +1,21 @@
-﻿using Dados.Constantes.Mensagens.Financeiro;
-using Dados.Constantes.Mensagens.Global;
-using Dados.Helpers.Combobox.Financeiro.Receber;
-using Dados.Helpers.Form;
-using Dados.Helpers.Grid;
-using Dados.View.Financeiro.ReceberCadastroFormulario;
-using Dados.View.Financeiro.ReceberQuitarParcelaFormulario;
-using Microsoft.EntityFrameworkCore;
-using Dados.Enums;
-using Dados.Constantes;
-using Dados.Helpers;
+﻿using Dados.Constantes;
 using Dados.Data;
+using Dados.Data.Repositories;
+using Dados.Enums;
+using Dados.Enums.Financeiro.Receber;
+using Dados.Helpers;
 using Dados.Model.Financeiro.Receber;
 using Dados.ViewModel.Financeiro.Receber;
-using Dados.Data.Repositories;
-using Dados.Enums.Financeiro.Receber;
+using Microsoft.EntityFrameworkCore;
+using Visual.Constantes.Mensagens.Financeiro;
+using Visual.Constantes.Mensagens.Global;
+using Visual.Helpers.Combobox.Financeiro.Receber;
+using Visual.Helpers.Form;
+using Visual.Helpers.Grid;
+using Visual.View.Financeiro.ReceberCadastroFormulario;
+using Visual.View.Financeiro.ReceberQuitarParcelaFormulario;
 
-namespace Dados.View.Financeiro.ReceberFormulario
+namespace Visual.View.Financeiro.ReceberFormulario
 {
     public partial class ReceberForm : Form
     {
